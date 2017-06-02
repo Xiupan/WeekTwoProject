@@ -32,8 +32,9 @@ html{
 }
 
 *{
-box-sizing: border-box;
-margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-weight: normal;
 }
 
 img{
@@ -42,13 +43,13 @@ img{
 
 
 /*Main Home Page Styles*/
-
 #main-page-header-logo-container{
   background-image: url(../images/filmclub.png);
   background-repeat: no-repeat;
   background-color: #F5005B;
   background-position: center;
-  flex-basis: 20%;
+  background-size: contain;
+  flex-basis: 25%;
   margin: 0px;
   padding: 0px;
 }
@@ -57,14 +58,14 @@ img{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
-  height: 250px;
+  /*height: 25vh;*/
 }
 
 #main-page-top-nav{
-  flex-basis: 80%;
+  flex-basis: 50%;
   margin: 0px;
-  transform: translateX(-5.25%);
 }
 
 #main-page-top-ul{
@@ -75,12 +76,6 @@ img{
 #main-page-top-ul li{
   font-size: 400%;
   width: 106%;
-}
-
-#main-page-top-ul a{
-  color: white;
-  text-decoration: none;
-  font-size: 50%;
 }
 
 .li-darkest{
@@ -95,6 +90,202 @@ img{
   background-color: #7DDFE8;
 }
 
+.main-page-nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 50%;
+  vertical-align: middle;
+}
+
 #main-page-top-container{
   padding: 5%;
+}
+
+.main-page-top-h2{
+  background-color: navy;
+  color: white;
+  font-weight: normal;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#main-page-mid-container{
+  background-color: navy;
+  padding-bottom: 2.5%;
+}
+
+.main-page-mid-h1{
+  color: white;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 500%;
+  font-weight: normal;
+}
+
+#rashomon-container{
+  background-color: white;
+  display: flex;
+  margin: 5%;
+}
+
+#rashomon-poster-img{
+  background-image: url(../images/rashomon-poster.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-basis: 60%;
+  min-height: 50vw;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#rashomon-container-right{
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%;
+  text-align: left;
+  padding-right: 25%;
+}
+
+.main-page-mid-h3{
+  font-size: 250%;
+}
+
+#rashomon-heading{
+  transform: translateX(-10%);
+}
+
+#rashomon-p{
+  font-size: 160%;
+  transform: translateX(-12.5%) translateY(-75%);
+}
+
+.main-page-mid-p{
+  font-size: 150%;
+}
+
+.main-page-dates{
+  font-weight: bold;
+}
+
+.main-page-mid-h4{
+  text-align: left;
+  border-top: 1px solid black;
+  padding-top: 40%;
+  width: 225%;
+  font-weight: bold;
+  font-size: 200%;
+  transform: translateX(-5%);
+}
+
+#main-page-mid-ul{
+  list-style: circle;
+  font-size: 175%;
+  transform: translateX(-25%) translateY(-15%);
+}
+
+#next-four-films-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  margin: 5%;
+  padding-bottom: 3%;
+}
+
+.poster-container{
+  flex-basis: 40%;
+}
+
+#the-great-train-robbery-poster-img{
+  background-image: url(../images/great-train-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 52vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#the-bicycle-thief-poster-img{
+  background-image: url(../images/bicycle-thief-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 52vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#nosferatu-poster-img{
+  background-image: url(../images/nosferatu-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 52vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#metropolis-poster-img{
+  background-image: url(../images/metropolis-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 52vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#main-page-bottom-nav{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#main-page-bottom-ul{
+  list-style: none;
+  text-align: center;
+  margin-left: -5%;
+}
+
+#main-page-bottom-ul li{
+  font-size: 200%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#main-page-bottom-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.main-page-bottom-h3{
+  font-size: 200%;
+}
+
+.main-page-bottom-p{
+  padding-top: 5%;
+  font-size: 175%;
+}
+
+footer{
+  text-align: center;
+  background-color: #7DDFE8;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*Medium Viewport Styles*/
+@media screen and (min-width: 545px) and (max-width: 768px){
+  html{
+    background-color: red;
+  }
 }
