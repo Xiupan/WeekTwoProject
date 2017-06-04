@@ -33,7 +33,7 @@ html{
 
 *{
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0px;
   font-weight: normal;
 }
 
@@ -48,46 +48,49 @@ img{
   background-repeat: no-repeat;
   background-color: #F5005B;
   background-position: center;
-  background-size: contain;
-  flex-basis: 25%;
-  margin: 0px;
-  padding: 0px;
+  background-size: 85%;
+  flex-basis: 30%;
 }
 
 #main-page-header{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   text-align: center;
-  /*height: 25vh;*/
+  padding: 0px;
+  margin: 0px;
+  min-height: 20vh;
+  width: 115%;
 }
 
 #main-page-top-nav{
-  flex-basis: 50%;
+  flex-basis: 70%;
   margin: 0px;
+  min-height: 20vh;
 }
 
 #main-page-top-ul{
   list-style: none;
-  height: 250px;
+  padding: 0px;
+  min-height: 20vh;
 }
 
 #main-page-top-ul li{
-  font-size: 400%;
-  width: 106%;
+  font-size: 200%;
+  min-height: 6.66667vh;
 }
 
 .li-darkest{
-  background-color: #7DDFE8;
+  background-color: #00a5bf;
 }
 
 .li-darker{
-  background-color: #7DDFE8;
+  background-color: #00b7d3;
 }
 
 .li-normal{
-  background-color: #7DDFE8;
+  background-color: #00d5e7;
 }
 
 .main-page-nav-link{
@@ -102,32 +105,39 @@ img{
 }
 
 .main-page-top-h2{
-  background-color: navy;
+  background-color: #0b1942;
   color: white;
   font-weight: normal;
   margin-top: 3%;
   margin-bottom: 3%;
   padding: 2%;
+  width: 115%;
+}
+
+.main-page-top-p{
+  width: 115%;
 }
 
 #main-page-mid-container{
-  background-color: navy;
+  background-color: #0b1942;
   padding-bottom: 2.5%;
+  width: 115%;
 }
 
 .main-page-mid-h1{
   color: white;
-  margin-left: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  font-size: 500%;
+  margin-left: 8%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 250%;
   font-weight: normal;
 }
 
 #rashomon-container{
-  background-color: white;
+  background-color: lightgrey;
   display: flex;
   margin: 5%;
+  margin-top: 2%;
 }
 
 #rashomon-poster-img{
@@ -135,38 +145,35 @@ img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  flex-basis: 60%;
-  min-height: 50vw;
+  flex-basis: 50%;
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-right: 1%;
 }
 
 #rashomon-container-right{
-  flex-basis: 30%;
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 5%;
+  margin-left: 2%;
   text-align: left;
-  padding-right: 25%;
 }
 
 .main-page-mid-h3{
-  font-size: 250%;
-}
-
-#rashomon-heading{
-  transform: translateX(-10%);
+  font-size: 150%;
 }
 
 #rashomon-p{
-  font-size: 160%;
-  transform: translateX(-12.5%) translateY(-75%);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 100%;
 }
 
 .main-page-mid-p{
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .main-page-dates{
@@ -176,17 +183,18 @@ img{
 .main-page-mid-h4{
   text-align: left;
   border-top: 1px solid black;
-  padding-top: 40%;
-  width: 225%;
+  padding-top: 10%;
+  width: 100%;
   font-weight: bold;
-  font-size: 200%;
-  transform: translateX(-5%);
+  font-size: 100%;
 }
 
 #main-page-mid-ul{
   list-style: circle;
-  font-size: 175%;
-  transform: translateX(-25%) translateY(-15%);
+  font-size: 100%;
+  margin-top: 5%;
+  margin-left: -10%;
+  line-height: 150%;
 }
 
 #next-four-films-container{
@@ -194,13 +202,14 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: white;
+  background-color: lightgrey;
   margin: 5%;
-  padding-bottom: 3%;
+  min-height: 750px;
 }
 
 .poster-container{
-  flex-basis: 40%;
+  flex-basis: 46%;
+  margin: 2%;
 }
 
 #the-great-train-robbery-poster-img{
@@ -208,7 +217,7 @@ img{
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 52vw;
+  min-height: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -218,7 +227,7 @@ img{
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 52vw;
+  min-height: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -228,7 +237,7 @@ img{
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 52vw;
+  min-height: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -238,15 +247,19 @@ img{
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 52vw;
+  min-height: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
+h3 a{
+  color: #00b7d3;
+}
+
 #main-page-bottom-nav{
-  margin: 0px;
+  margin: -4.5%;
   padding: 0px;
-  width: 100%;
+  width: 119.5%;
 }
 
 #main-page-bottom-ul{
@@ -256,7 +269,7 @@ img{
 }
 
 #main-page-bottom-ul li{
-  font-size: 200%;
+  font-size: 125%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -267,12 +280,13 @@ img{
 }
 
 .main-page-bottom-h3{
-  font-size: 200%;
+  font-size: 100%;
+  margin-top: -18%;
 }
 
 .main-page-bottom-p{
   padding-top: 5%;
-  font-size: 175%;
+  font-size: 100%;
 }
 
 footer{
@@ -281,11 +295,362 @@ footer{
   color: white;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-top: 4%;
+  width: 115%;
 }
 
 /*Medium Viewport Styles*/
 @media screen and (min-width: 545px) and (max-width: 768px){
-  html{
-    background-color: red;
+  #main-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 150px;
+    max-height: 150px;
   }
+
+  #main-page-header-logo-container{
+    flex-basis: 15%;
+    max-height: 150px;
+    background-size: 80%;
+  }
+
+  #main-page-top-nav{
+    flex-basis: 85%;
+    min-height: 150px;
+    max-height: 150px;
+  }
+
+  #main-page-top-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    min-height: 150px;
+    max-height: 250px;
+  }
+
+  #main-page-top-ul li{
+    min-width: 100px;
+    max-height: 150px;
+    text-align: center;
+    padding-top: 7%;
+  }
+
+  #main-page-top-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 120%;
+  }
+
+  .main-page-top-h1{
+    flex-basis: 100%;
+    margin-bottom: 3%;
+  }
+
+  .main-page-top-h2{
+    width: 100%;
+  }
+
+  .main-page-top-p{
+    width: 100%;
+  }
+
+  .watch-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .take-notes-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .meetup-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  #rashomon-container{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+  }
+
+  #rashomon-poster-img{
+    min-height: 550px;
+    margin: 2%;
+  }
+
+  #rashomon-container-right{
+    margin: 2.5%;
+  }
+
+  #rashomon-heading{
+    flex-grow: 0;
+    margin-bottom: 2.5%;
+    font-size: 175%;
+  }
+
+  #rashomon-p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+    margin-bottom: 10%;
+    font-size: 125%;
+  }
+
+  .main-page-mid-h4{
+    font-size: 125%;
+    flex-grow: 0;
+  }
+
+  #main-page-mid-ul{
+    font-size: 125%;
+    flex-grow: 1.5;
+  }
+
+  #next-four-films-container{
+    margin: 1%;
+    min-height: 350px;
+  }
+
+  .poster-container{
+    flex-basis: 20%;
+  }
+
+  .bottom-nav-and-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #main-page-bottom-nav{
+    margin: 0px;
+    width: 70%;
+  }
+
+  #main-page-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10.5%;
+    background-color: #7DDFE8;
+    flex-basis: 30%;
+  }
+
+  #main-page-bottom-ul li{
+    min-width: 100px;
+    min-height: 125px;
+    margin: 0px;
+    padding-top: 12%;
+  }
+
+  footer{
+    flex-basis: 70%;
+    min-height: 125px;
+    margin: 0px;
+    margin-right: -15%;
+    text-align: right;
+    padding: 0px;
+    padding-top: 7%;
+    padding-right: 3%;
+  }
+}
+
+/*Large Viewport Styles*/
+@media screen and (min-width: 769px){
+  #main-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 200px;
+    max-height: 150px;
+  }
+
+  #main-page-header-logo-container{
+    flex-basis: 15%;
+    min-height: 200px;
+    max-height: 150px;
+    background-size: 80%;
+  }
+
+  #main-page-top-nav{
+    flex-basis: 85%;
+    min-height: 200px;
+    max-height: 150px;
+  }
+
+  #main-page-top-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    min-height: 200px;
+    max-height: 250px;
+    width: 95%;
+  }
+
+  #main-page-top-ul li{
+    min-width: 175px;
+    max-height: 200px;
+    text-align: center;
+    padding-top: 5.5%;
+    font-size: 350%;
+  }
+
+  #main-page-top-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 112%;
+    padding: 3%;
+  }
+
+  .main-page-top-h1{
+    flex-basis: 100%;
+    margin-bottom: 1%;
+    font-size: 350%;
+  }
+
+  .main-page-top-h2{
+    width: 100%;
+    font-size: 225%;
+    padding: 4%;
+  }
+
+  .main-page-top-p{
+    width: 100%;
+    font-size: 175%;
+    margin-top: 5%;
+  }
+
+  .watch-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .take-notes-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .meetup-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  #main-page-mid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 110%;
+  }
+
+  .main-page-mid-h1{
+    flex-basis: 100%;
+  }
+
+  #rashomon-container{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0px;
+    flex-basis: 45%;
+    max-height: 350px;
+  }
+
+  #rashomon-poster-img{
+    min-height: 550px;
+    margin: 2%;
+    background-position: top;
+  }
+
+  #rashomon-container-right{
+    margin: 2.5%;
+  }
+
+  #rashomon-heading{
+    flex-grow: 0;
+    margin-bottom: 2.5%;
+    font-size: 175%;
+  }
+
+  #rashomon-p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+    margin-bottom: 10%;
+    font-size: 125%;
+  }
+
+  .main-page-mid-h4{
+    font-size: 125%;
+    flex-grow: 0;
+  }
+
+  #main-page-mid-ul{
+    font-size: 125%;
+    flex-grow: 1.5;
+  }
+
+  #next-four-films-container{
+    margin: 1%;
+    margin-top: 0px;
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .poster-container{
+    flex-basis: 35%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1%;
+    height: 50%;
+  }
+
+  .main-page-bottom-h3{
+    margin-top: -45%;
+  }
+
+  .bottom-nav-and-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #main-page-bottom-nav{
+    margin: 0px;
+    width: 100%;
+  }
+
+  #main-page-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -7%;
+    background-color: #7DDFE8;
+    flex-basis: 30%;
+  }
+
+  #main-page-bottom-ul li{
+    min-width: 100px;
+    min-height: 125px;
+    margin: 0px;
+    padding-top: 8%;
+  }
+
+  footer{
+    flex-basis: 70%;
+    min-height: 125px;
+    margin: 0px;
+    margin-right: -10%;
+    text-align: right;
+    padding: 0px;
+    padding-top: 5%;
+    padding-right: 3%;
+  }
+
 }
