@@ -654,3 +654,219 @@ footer{
   }
 
 }
+
+/*Calendar Page Small Viewport Styles*/
+#calendar-header-logo-container{
+  background-image: url(../images/filmclub.png);
+  background-repeat: no-repeat;
+  background-color: #F5005B;
+  background-position: center;
+  background-size: 85%;
+  flex-basis: 30%;
+}
+
+#calendar-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  min-height: 20vh;
+  width: 100%;
+}
+
+#calendar-top-nav{
+  flex-basis: 70%;
+  margin: 0px;
+  min-height: 20vh;
+}
+
+#calendar-top-ul{
+  list-style: none;
+  padding: 0px;
+  min-height: 20vh;
+}
+
+#calendar-top-ul li{
+  font-size: 200%;
+  min-height: 6.66667vh;
+}
+
+.calendar-nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 75%;
+}
+
+#calendar-bottom-nav{
+  padding: 0px;
+  width: 100%;
+}
+
+#calendar-bottom-ul{
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+#calendar-bottom-ul li{
+  font-size: 125%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#calendar-bottom-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#calendar-footer{
+  width: 100%;
+  margin: 0px;
+}
+
+.calendar-top-h2{
+  padding: 4%;
+  color: #0b1942;
+}
+
+.calendar-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0b1942;
+  padding-bottom: 8%;
+}
+
+.calendar-mid-h2{
+  width: 100%;
+  color: white;
+  padding: 4%;
+}
+
+.calendar-day{
+  width: 14.285%;
+  min-height: 50px;
+  border: 1px solid #0b1942;
+  background-color: white;
+}
+
+.calendar-day-number{
+  width: 45%;
+  height: 50%;
+  background-color: #0b1942;
+  color: white;
+  text-align: center;
+  padding-top: 6%;
+  font-size: 75%;
+}
+
+#june-13{
+  background-color: #F5005B;
+}
+
+#june-27{
+  background-color: #F5005B;
+}
+
+/*Calendar Page Medium Viewport Styles*/
+@media screen and (min-width: 545px) and (max-width: 768px){
+  #calendar-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 0px;
+  }
+
+  #calendar-header-logo-container{
+    flex-basis: 17%;
+    background-size: 70%;
+  }
+
+  #calendar-top-nav{
+    flex-basis: 80%;
+    min-height: 0px;
+  }
+
+  #calendar-top-ul{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 100%;
+  }
+
+  #calendar-top-ul li{
+    height: 100%;
+    width: 20%;
+    align-self: flex-start;
+    font-size: 150%;
+    padding-top: 9%;
+  }
+
+  .calendar-day{
+    min-height: 10vh;
+    min-width: 14.285%;
+  }
+
+  .calendar-day-number{
+    font-weight: bold;
+    font-size: 100%;
+    width: 30%;
+    height: 30%;
+  }
+
+  #calendar-bottom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #calendar-bottom-nav{
+    width: 100%;
+    height: 100%;
+  }
+
+  #calendar-bottom-ul li{
+    flex-basis: 25%;
+    height: 100%;
+  }
+}
+
+/*Calendar Page Large Viewport*/
+@media screen and (min-width: 769px){
+  #calendar-header{
+    min-height: 0px;
+    max-height: 15vh;
+  }
+
+  #calendar-header-logo-container{
+    flex-basis: 10%;
+  }
+
+  #calendar-top-nav{
+    flex-basis: 90%;
+    min-height: 0px;
+    max-height: 15vh;
+  }
+
+  #calendar-top-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 15vh;
+    min-height: 0px;
+  }
+
+  #calendar-top-ul li{
+    flex-basis: 15%;
+    padding-top: 4%;
+  }
+}
