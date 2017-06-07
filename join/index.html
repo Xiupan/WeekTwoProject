@@ -2,10 +2,124 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Club - Join</title>
   </head>
   <body>
+    <header id="join-header">
+      <div id="join-header-logo-container"></div>
+      <nav id="join-top-nav">
+        <ul id="join-top-ul">
+          <li class="li-darkest"><a class="join-nav-link" href="../index.html">Home</a></li>
+          <li class="li-darker"><a class="join-nav-link" href="../calendar/index.html">Calendar</a></li>
+          <li class="li-normal"><a class="join-nav-link" href="../join/index.html">Join</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <h2 class="join-top-h2">Join Film Club</h2>
+
+    <form class="join-form" action="index.html" method="post">
+
+      <div class="profile-picture-file-choose-with-img-container">
+        <div class="form-container" id="profile-picture-input-container">
+          <label for="profilePicture">profile picture</label>
+          <input type="file" name="profilePicture">
+        </div>
+        <div class="profile-picture-img-container"></div>
+      </div>
+
+      <div class="four-text-fields-container">
+        <div class="first-two-fields-container">
+          <div class="form-container" id="name-container">
+            <label for="name">name</label>
+            <input type="text" name="name">
+          </div>
+          <div class="form-container" id="email-address-container">
+            <label for="emailAddress">email address</label>
+            <input type="text" name="emailAddress">
+          </div>
+        </div>
+        <div class="second-two-fields-container">
+          <div class="form-container" id="password-container">
+            <label for="password">password</label>
+            <input type="password" name="password">
+          </div>
+          <div class="form-container" id="confirm-password-container">
+            <label for="confirmPassword">confirm password</label>
+            <input type="password" name="confirmPassword">
+          </div>
+        </div>
+      </div>
+
+      <div class="genres-container">
+        <p class="form-mid-p">Which genres are you interested in?</p>
+        <div class="checkbox-container" id="action-checkbox">
+          <input type="checkbox" name="action">
+          <label for="action">action</label>
+        </div>
+        <div class="checkbox-container" id="adventure-checkbox">
+          <input type="checkbox" name="adventure">
+          <label for="adventure">adventure</label>
+        </div>
+        <div class="checkbox-container" id="comedy-checkbox">
+          <input type="checkbox" name="comedy">
+          <label for="comedy">comedy</label>
+        </div>
+        <div class="checkbox-container" id="drama-checkbox">
+          <input type="checkbox" name="drama">
+          <label for="drama">drama</label>
+        </div>
+        <div class="checkbox-container" id="fantasy-checkbox">
+          <input type="checkbox" name="fantasy">
+          <label for="fantasy">fantasy</label>
+        </div>
+        <div class="checkbox-container" id="historical-checkbox">
+          <input type="checkbox" name="historical">
+          <label for="historical">historical</label>
+        </div>
+        <div class="checkbox-container" id="horror-checkbox">
+          <input type="checkbox" name="horror">
+          <label for="horror">horror</label>
+        </div>
+        <div class="checkbox-container" id="mystery-checkbox">
+          <input type="checkbox" name="mystery">
+          <label for="mystery">mystery</label>
+        </div>
+        <div class="checkbox-container" id="romance-checkbox">
+          <input type="checkbox" name="romance">
+          <label for="romance">romance</label>
+        </div>
+        <div class="checkbox-container" id="science-fiction-checkbox">
+          <input type="checkbox" name="science-fiction">
+          <label for="science-fiction">science fiction</label>
+        </div>
+        <div class="checkbox-container" id="western-checkbox">
+          <input type="checkbox" name="western">
+          <label for="western">western</label>
+        </div>
+      </div>
+
+      <div class="form-container" id="additional-input">
+        <label for="additional-input">Additional input</label>
+        <input id="additional-input-textfield" type="text" name="additional-input">
+      </div>
+      <input type="submit" name="submitButton" value="Join Film Club">
+
+    </form>
+
+    <div class="bottom-nav-and-footer">
+      <nav id="join-bottom-nav">
+        <ul id="join-bottom-ul">
+          <li class="li-darkest"><a href="../index.html">Home</a></li>
+          <li class="li-darker"><a href="../calendar/index.html">Calendar</a></li>
+          <li class="li-normal"><a href="../join/index.html">Join</a></li>
+        </ul>
+      </nav>
+      <footer id="join-footer">
+        © 2017, Film Club
+      </footer>
   </body>
 </html>
