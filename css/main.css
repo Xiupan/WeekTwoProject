@@ -32,8 +32,9 @@ html{
 }
 
 *{
-box-sizing: border-box;
-margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0px;
+  font-weight: normal;
 }
 
 img{
@@ -42,59 +43,1307 @@ img{
 
 
 /*Main Home Page Styles*/
-
 #main-page-header-logo-container{
   background-image: url(../images/filmclub.png);
   background-repeat: no-repeat;
   background-color: #F5005B;
   background-position: center;
-  flex-basis: 20%;
-  margin: 0px;
-  padding: 0px;
+  background-size: 85%;
+  flex-basis: 30%;
 }
 
 #main-page-header{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   text-align: center;
-  height: 250px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
 #main-page-top-nav{
-  flex-basis: 80%;
+  flex-basis: 70%;
   margin: 0px;
-  transform: translateX(-5.25%);
 }
 
 #main-page-top-ul{
   list-style: none;
-  height: 250px;
+  padding: 0px;
 }
 
 #main-page-top-ul li{
-  font-size: 400%;
-  width: 106%;
-}
-
-#main-page-top-ul a{
-  color: white;
-  text-decoration: none;
-  font-size: 50%;
+  font-size: 200%;
 }
 
 .li-darkest{
-  background-color: #7DDFE8;
+  background-color: #00a5bf;
 }
 
 .li-darker{
-  background-color: #7DDFE8;
+  background-color: #00b7d3;
 }
 
 .li-normal{
-  background-color: #7DDFE8;
+  background-color: #00d5e7;
+}
+
+.main-page-nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 50%;
+  vertical-align: middle;
 }
 
 #main-page-top-container{
   padding: 5%;
+}
+
+.main-page-top-h2{
+  background-color: #0b1942;
+  color: white;
+  font-weight: normal;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 2%;
+  width: 100%;
+}
+
+.main-page-top-p{
+  width: 100%;
+}
+
+#main-page-mid-container{
+  background-color: #0b1942;
+  padding-bottom: 2.5%;
+  width: 100%;
+}
+
+.main-page-mid-h1{
+  color: white;
+  margin-left: 8%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 250%;
+  font-weight: normal;
+}
+
+#rashomon-container{
+  background-color: lightgrey;
+  display: flex;
+  margin: 5%;
+  margin-top: 2%;
+}
+
+#rashomon-poster-img{
+  background-image: url(../images/rashomon-poster.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-basis: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 1%;
+}
+
+#rashomon-container-right{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.main-page-mid-h3{
+  font-size: 150%;
+}
+
+#rashomon-p{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 100%;
+}
+
+.main-page-mid-p{
+  font-size: 100%;
+}
+
+.main-page-dates{
+  font-weight: bold;
+}
+
+.main-page-mid-h4{
+  text-align: left;
+  border-top: 1px solid black;
+  padding-top: 10%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+#main-page-mid-ul{
+  list-style: circle;
+  font-size: 100%;
+  margin-top: 5%;
+  margin-left: -10%;
+  line-height: 150%;
+}
+
+#next-four-films-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: lightgrey;
+  margin: 5%;
+  min-height: 750px;
+}
+
+.poster-container{
+  flex-basis: 46%;
+  margin: 2%;
+}
+
+#the-great-train-robbery-poster-img{
+  background-image: url(../images/great-train-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#the-bicycle-thief-poster-img{
+  background-image: url(../images/bicycle-thief-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#nosferatu-poster-img{
+  background-image: url(../images/nosferatu-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#metropolis-poster-img{
+  background-image: url(../images/metropolis-poster.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h3 a{
+  color: #00b7d3;
+}
+
+#main-page-bottom-nav{
+  margin: -4.5%;
+  padding: 0px;
+  width: 100%;
+}
+
+#main-page-bottom-ul{
+  list-style: none;
+  text-align: center;
+  margin-left: -5%;
+}
+
+#main-page-bottom-ul li{
+  font-size: 125%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#main-page-bottom-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.main-page-bottom-h3{
+  font-size: 100%;
+  margin-top: -18%;
+}
+
+.main-page-bottom-p{
+  padding-top: 5%;
+  font-size: 100%;
+}
+
+#home-page-bottom-nav-and-footer{
+  width: 106.5%;
+  margin-left: -2.9%;
+  margin-top: 4.5%;
+
+}
+
+footer{
+  text-align: center;
+  background-color: #7DDFE8;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 4%;
+  width: 96%;
+}
+
+/*Medium Viewport Styles*/
+@media screen and (min-width: 545px) and (max-width: 768px){
+  #main-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 150px;
+    max-height: 150px;
+    width: 114.4%;
+  }
+
+  #main-page-header-logo-container{
+    flex-basis: 15%;
+    max-height: 150px;
+    background-size: 80%;
+  }
+
+  #main-page-top-nav{
+    flex-basis: 85%;
+    min-height: 150px;
+    max-height: 150px;
+  }
+
+  #main-page-top-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    min-height: 150px;
+    max-height: 250px;
+  }
+
+  #main-page-top-ul li{
+    min-width: 100px;
+    max-height: 150px;
+    text-align: center;
+    padding-top: 7%;
+  }
+
+  #main-page-top-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 120%;
+  }
+
+  .main-page-top-h1{
+    flex-basis: 100%;
+    margin-bottom: 3%;
+  }
+
+  .main-page-top-h2{
+    width: 100%;
+  }
+
+  .main-page-top-p{
+    width: 100%;
+  }
+
+  .watch-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .take-notes-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .meetup-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  #main-page-mid-container{
+    width: 114.3%;
+  }
+
+  #rashomon-container{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+  }
+
+  #rashomon-poster-img{
+    min-height: 550px;
+    margin: 2%;
+  }
+
+  #rashomon-container-right{
+    margin: 2.5%;
+  }
+
+  #rashomon-heading{
+    flex-grow: 0;
+    margin-bottom: 2.5%;
+    font-size: 175%;
+  }
+
+  #rashomon-p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+    margin-bottom: 10%;
+    font-size: 125%;
+  }
+
+  .main-page-mid-h4{
+    font-size: 125%;
+    flex-grow: 0;
+  }
+
+  #main-page-mid-ul{
+    font-size: 125%;
+    flex-grow: 1.5;
+  }
+
+  #next-four-films-container{
+    margin: 1%;
+    min-height: 350px;
+  }
+
+  .poster-container{
+    flex-basis: 20%;
+  }
+
+  .bottom-nav-and-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #home-page-bottom-nav-and-footer{
+    margin-top: 0px;
+  }
+
+  #main-page-bottom-nav{
+    margin: 0px;
+    width: 70%;
+  }
+
+  #main-page-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -3.7%;
+    background-color: #7DDFE8;
+    flex-basis: 30%;
+  }
+
+  #main-page-bottom-ul li{
+    min-width: 100px;
+    min-height: 125px;
+    margin: 0px;
+    padding-top: 12%;
+  }
+
+  footer{
+    flex-basis: 70%;
+    min-height: 125px;
+    margin: 0px;
+    margin-right: -10.2%;
+    text-align: right;
+    padding: 0px;
+    padding-top: 7%;
+    padding-right: 3%;
+  }
+}
+
+/*Large Viewport Styles*/
+@media screen and (min-width: 769px){
+  #main-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #main-page-header-logo-container{
+    flex-basis: 10%;
+    background-size: 80%;
+  }
+
+  #main-page-top-nav{
+    flex-basis: 90%;
+  }
+
+  #main-page-top-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 15vh;
+    width: 110%;
+  }
+
+  #main-page-top-ul li{
+    min-width: 125px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 250%;
+  }
+
+  #main-page-top-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 112%;
+    padding: 3%;
+  }
+
+  .main-page-top-h1{
+    flex-basis: 100%;
+    margin-bottom: 1%;
+    font-size: 350%;
+  }
+
+  .main-page-top-h2{
+    width: 100%;
+    font-size: 225%;
+    padding: 4%;
+  }
+
+  .main-page-top-p{
+    width: 100%;
+    font-size: 175%;
+    margin-top: 5%;
+  }
+
+  .watch-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .take-notes-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  .meetup-container{
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+
+  #main-page-mid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 110%;
+  }
+
+  .main-page-mid-h1{
+    flex-basis: 100%;
+  }
+
+  #rashomon-container{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0px;
+    flex-basis: 45%;
+    max-height: 350px;
+  }
+
+  #rashomon-poster-img{
+    min-height: 550px;
+    margin: 2%;
+    background-position: top;
+  }
+
+  #rashomon-container-right{
+    margin: 2.5%;
+  }
+
+  #rashomon-heading{
+    flex-grow: 0;
+    margin-bottom: 2.5%;
+    font-size: 175%;
+  }
+
+  #rashomon-p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+    margin-bottom: 10%;
+    font-size: 125%;
+  }
+
+  .main-page-mid-h4{
+    font-size: 125%;
+    flex-grow: 0;
+  }
+
+  #main-page-mid-ul{
+    font-size: 125%;
+    flex-grow: 1.5;
+  }
+
+  #next-four-films-container{
+    margin: 1%;
+    margin-top: 0px;
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .poster-container{
+    flex-basis: 35%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1%;
+    height: 50%;
+  }
+
+  .main-page-bottom-h3{
+    margin-top: -45%;
+  }
+
+  #home-page-bottom-nav-and-footer{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .bottom-nav-and-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #main-page-bottom-nav{
+    margin: 0px;
+    width: 100%;
+  }
+
+  #main-page-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -7%;
+    background-color: #7DDFE8;
+    flex-basis: 30%;
+  }
+
+  #main-page-bottom-ul li{
+    min-width: 100px;
+    min-height: 125px;
+    margin: 0px;
+    padding-top: 8%;
+  }
+
+  footer{
+    flex-basis: 70%;
+    min-height: 125px;
+    margin: 0px;
+    margin-right: -10%;
+    text-align: right;
+    padding: 0px;
+    padding-top: 5%;
+    padding-right: 3%;
+  }
+
+}
+
+/*Calendar Page Small Viewport Styles*/
+#calendar-header-logo-container{
+  background-image: url(../images/filmclub.png);
+  background-repeat: no-repeat;
+  background-color: #F5005B;
+  background-position: center;
+  background-size: 85%;
+  flex-basis: 30%;
+}
+
+#calendar-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  min-height: 20vh;
+  width: 100%;
+}
+
+#calendar-top-nav{
+  flex-basis: 70%;
+  margin: 0px;
+  min-height: 20vh;
+}
+
+#calendar-top-ul{
+  list-style: none;
+  padding: 0px;
+  min-height: 20vh;
+}
+
+#calendar-top-ul li{
+  font-size: 200%;
+  min-height: 6.66667vh;
+}
+
+.calendar-nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 75%;
+}
+
+#calendar-bottom-nav{
+  padding: 0px;
+  width: 100%;
+}
+
+#calendar-bottom-ul{
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+#calendar-bottom-ul li{
+  font-size: 125%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#calendar-bottom-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#calendar-footer{
+  width: 100%;
+  margin: 0px;
+}
+
+.calendar-top-h2{
+  padding: 4%;
+  color: #0b1942;
+}
+
+.calendar-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0b1942;
+  padding-bottom: 8%;
+}
+
+.calendar-mid-h2{
+  width: 100%;
+  color: white;
+  padding: 4%;
+}
+
+.calendar-day{
+  width: 14.285%;
+  min-height: 50px;
+  border: 1px solid #0b1942;
+  background-color: white;
+}
+
+.calendar-day-number{
+  width: 45%;
+  height: 50%;
+  background-color: #0b1942;
+  color: white;
+  text-align: center;
+  padding-top: 6%;
+  font-size: 75%;
+}
+
+#june-13{
+  background-color: #F5005B;
+}
+
+#june-27{
+  background-color: #F5005B;
+}
+
+/*Calendar Page Medium Viewport Styles*/
+@media screen and (min-width: 545px) and (max-width: 768px){
+  #calendar-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 0px;
+    width: 103.1%;
+  }
+
+  #calendar-header-logo-container{
+    flex-basis: 17%;
+    background-size: 70%;
+  }
+
+  #calendar-top-nav{
+    flex-basis: 80%;
+    min-height: 0px;
+  }
+
+  #calendar-top-ul{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 100%;
+  }
+
+  #calendar-top-ul li{
+    height: 100%;
+    width: 20%;
+    align-self: flex-start;
+    font-size: 150%;
+    padding-top: 9%;
+  }
+
+  .calendar-top-h2{
+    font-size: 200%;
+    padding: 2%;
+  }
+
+  .calendar-mid-h2{
+    padding: 2.5%;
+  }
+
+  .calendar-day{
+    min-height: 10vh;
+    min-width: 14.285%;
+  }
+
+  .calendar-day-number{
+    font-weight: normal;
+    font-size: 100%;
+    width: 35%;
+    height: 40%;
+    padding-top: 1.5%;
+  }
+
+  #calendar-bottom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #calendar-bottom-nav{
+    width: 100%;
+    height: 100%;
+    background-color: #7DDFE8;
+  }
+
+  #calendar-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+  }
+
+  #calendar-bottom-ul li{
+    flex-basis: 33%;
+    height: 17.5vh;
+    min-width: 100px;
+    width: 40%;
+    padding-top: 20%;
+  }
+
+  #calendar-footer{
+    padding-top: 9%;
+  }
+}
+
+/*Calendar Page Large Viewport*/
+@media screen and (min-width: 769px){
+  #calendar-header{
+    min-height: 0px;
+    max-height: 15vh;
+  }
+
+  #calendar-header-logo-container{
+    flex-basis: 10%;
+  }
+
+  #calendar-top-nav{
+    flex-basis: 90%;
+    min-height: 0px;
+    max-height: 15vh;
+  }
+
+  #calendar-top-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 15vh;
+    min-height: 0px;
+  }
+
+  #calendar-top-ul li{
+    flex-basis: 15%;
+    padding-top: 4%;
+  }
+
+  .calendar-top-h2{
+    padding: 1.5%;
+    font-size: 200%;
+  }
+
+  .calendar-mid-h2{
+    padding: 2%;
+  }
+
+  .calendar-day{
+    height: 14vh;
+  }
+
+  .calendar-day-number{
+    width: 20%;
+    height: 20%;
+    padding-top: 2%;
+  }
+
+  #calendar-bottom-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 100%;
+  }
+
+  #calendar-bottom-ul li{
+    width: 10vw;
+    padding-top: 5.5vh;
+  }
+}
+
+/*Join Page Default Styles*/
+#join-header-logo-container{
+  background-image: url(../images/filmclub.png);
+  background-repeat: no-repeat;
+  background-color: #F5005B;
+  background-position: center;
+  background-size: 85%;
+  flex-basis: 30%;
+}
+
+#join-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+#join-top-nav{
+  flex-basis: 70%;
+  margin: 0px;
+}
+
+#join-top-ul{
+  list-style: none;
+  padding: 0px;
+  width: 121.5%;
+}
+
+#join-top-ul li{
+  font-size: 125%;
+  min-height: 6.66667vh;
+  padding-top: 5%;
+}
+
+.join-nav-link{
+  color: white;
+  text-decoration: none;
+}
+
+.join-top-h2{
+  padding: 5%;
+}
+
+.join-form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 115%;
+}
+
+.profile-picture-img-container{
+  background-image: url(../images/profile-placeholder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 51vh;
+  width: 90%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.form-container, .form-mid-p, .checkbox-container{
+  padding: 3%;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label{
+  padding-bottom: 1%;
+  font-size: 110%;
+}
+
+.form-container input{
+  line-height: 200%;
+}
+
+.genres-container{
+  margin-top: 18%;
+  margin-bottom: 32%;
+}
+
+#additional-input-textfield{
+  resize: both;
+  line-height: 450%;
+  margin-bottom: 5%;
+}
+
+input[type="submit"]{
+  background-color: #F5005B;
+  color: white;
+  font-size: 100%;
+  width: 30%;
+  margin: 5%;
+  margin-left: 3%;
+  border: 0px;
+  padding: 5%;
+}
+
+.bottom-nav-and-footer{
+  padding: 0px;
+  width: 115%;
+}
+
+#join-bottom-ul{
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+#join-bottom-ul li{
+  font-size: 125%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#join-bottom-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#join-footer{
+  width: 100%;
+  margin: 0px;
+}
+
+/*Join Page Medium Viewport Styles*/
+@media screen and (min-width: 545px) and (max-width: 768px){
+  #join-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 18vh;
+    width: 100.7%;
+  }
+
+  #join-header-logo-container{
+    flex-basis: 17%;
+    background-size: 70%;
+  }
+
+  #join-top-nav{
+    flex-basis: 80%;
+    min-height: 0px;
+  }
+
+  #join-top-ul{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 100%;
+  }
+
+  #join-top-ul li{
+    height: 100%;
+    width: 20%;
+    align-self: flex-start;
+    font-size: 150%;
+    padding-top: 8%;
+  }
+
+  .join-top-h2{
+    padding: 2%;
+    font-size: 200%;
+  }
+
+  .join-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .profile-picture-file-choose-with-img{
+    flex-basis: 50%;
+  }
+
+  .four-text-fields-container{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .profile-picture-img-container{
+    min-height: 30vh;
+    width: 100%;
+  }
+
+  .genres-container{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .form-mid-p{
+    flex-basis: 100%;
+  }
+
+  .checkbox-container{
+    flex-basis: 50%;
+    padding: 1%;
+    padding-left: 3%;
+  }
+
+  #additional-input{
+    flex-basis: 100%;
+  }
+
+  input[type="submit"]{
+    margin: 0px;
+    transform: translateX(-227%) translateY(-75%);
+    padding: 2%;
+    width: 17%;
+  }
+
+  .bottom-nav-and-footer{
+    padding: 0px;
+    width: 115%;
+  }
+
+  #join-bottom-ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+  }
+
+  #join-bottom-ul li{
+    font-size: 125%;
+    padding-top: 15%;
+    padding-bottom: 2%;
+    min-width: 15vw;
+  }
+
+  #join-bottom-ul li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  #join-footer{
+    width: 100%;
+    margin: 0px;
+    padding-top: 6.5%;
+  }
+}
+
+@media screen and (min-width: 769px){
+  #join-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 15vh;
+    width: 107.3%;
+  }
+
+  #join-header-logo-container{
+    flex-basis: 10%;
+    background-size: 85%;
+  }
+
+  #join-top-nav{
+    flex-basis: 80%;
+    min-height: 0px;
+  }
+
+  #join-top-ul{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #7DDFE8;
+    height: 100%;
+  }
+
+  #join-top-ul li{
+    height: 100%;
+    width: 10%;
+    align-self: flex-start;
+    font-size: 150%;
+    padding-top: 4.5%;
+  }
+
+  .join-top-h2{
+    padding: 2%;
+    font-size: 200%;
+  }
+
+  .join-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .form-container label{
+    font-weight: bold;
+  }
+
+  .profile-picture-file-choose-with-img{
+    flex-basis: 50%;
+  }
+
+  .four-text-fields-container{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .first-two-fields-container{
+    flex-basis: 50%;
+  }
+
+  .second-two-fields-container{
+    flex-basis: 50%;
+  }
+
+  .profile-picture-img-container{
+    min-height: 30vh;
+    width: 100%;
+  }
+
+  .genres-container{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .form-mid-p{
+    flex-basis: 100%;
+    font-weight: bold;
+  }
+
+  .checkbox-container{
+    flex-basis: 33%;
+    padding: 1%;
+    padding-left: 3%;
+  }
+
+  .checkbox-container label{
+    font-weight: bold;
+  }
+
+  #additional-input{
+    flex-basis: 100%;
+  }
+
+  input[type="submit"]{
+    margin: 0px;
+    transform: translateX(-312%) translateY(-75%);
+    padding: 2%;
+    width: 13%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 115%;
+  }
+
+  .bottom-nav-and-footer{
+    padding: 0px;
+    width: 121.5%;
+  }
+
+  #join-bottom-ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+  }
+
+  #join-bottom-ul li{
+    font-size: 125%;
+    padding-top: 16.5%;
+    padding-bottom: 2%;
+    min-width: 10vw;
+  }
+
+  #join-bottom-ul li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  #join-footer{
+    width: 100%;
+    margin: 0px;
+    padding-top: 5%;
+  }
 }
