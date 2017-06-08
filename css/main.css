@@ -98,6 +98,7 @@ img{
 
 #main-page-top-container{
   padding: 5%;
+  width: 100%;
 }
 
 .main-page-top-h2{
@@ -200,7 +201,7 @@ img{
   justify-content: space-between;
   background-color: lightgrey;
   margin: 5%;
-  min-height: 750px;
+  min-height: 550px;
 }
 
 .poster-container{
@@ -277,7 +278,7 @@ h3 a{
 
 .main-page-bottom-h3{
   font-size: 100%;
-  margin-top: -18%;
+  margin-top: -30%;
 }
 
 .main-page-bottom-p{
@@ -286,9 +287,9 @@ h3 a{
 }
 
 #home-page-bottom-nav-and-footer{
-  width: 106.5%;
-  margin-left: -2.9%;
-  margin-top: 4.5%;
+  width: 108.3%;
+  margin-left: -3.5%;
+  margin-top: 3.5%;
 
 }
 
@@ -310,7 +311,7 @@ footer{
     justify-content: flex-start;
     min-height: 150px;
     max-height: 150px;
-    width: 114.4%;
+    width: 103.8%;
   }
 
   #main-page-header-logo-container{
@@ -345,7 +346,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 120%;
+    width: 107.8%;
   }
 
   .main-page-top-h1{
@@ -377,7 +378,7 @@ footer{
   }
 
   #main-page-mid-container{
-    width: 114.3%;
+    width: 103.8%;
   }
 
   #rashomon-container{
@@ -436,6 +437,7 @@ footer{
 
   #home-page-bottom-nav-and-footer{
     margin-top: 0px;
+    width: 97.3%
   }
 
   #main-page-bottom-nav{
@@ -476,6 +478,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width: 98.9%;
   }
 
   #main-page-header-logo-container{
@@ -549,7 +552,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 110%;
+    width: 107.8%;
   }
 
   .main-page-mid-h1{
@@ -606,6 +609,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 80vh;
   }
 
   .poster-container{
@@ -617,7 +621,7 @@ footer{
   }
 
   .main-page-bottom-h3{
-    margin-top: -45%;
+    margin-top: -30%;
   }
 
   #home-page-bottom-nav-and-footer{
@@ -656,7 +660,7 @@ footer{
     flex-basis: 70%;
     min-height: 125px;
     margin: 0px;
-    margin-right: -10%;
+    margin-right: -7.8%;
     text-align: right;
     padding: 0px;
     padding-top: 5%;
@@ -684,7 +688,7 @@ footer{
   padding: 0px;
   margin: 0px;
   min-height: 20vh;
-  width: 100%;
+  width: 115%;
 }
 
 #calendar-top-nav{
@@ -740,6 +744,7 @@ footer{
 .calendar-top-h2{
   padding: 4%;
   color: #0b1942;
+  width: 115%;
 }
 
 .calendar-container{
@@ -748,6 +753,7 @@ footer{
   flex-wrap: wrap;
   background-color: #0b1942;
   padding-bottom: 8%;
+  width: 115%;
 }
 
 .calendar-mid-h2{
@@ -788,7 +794,7 @@ footer{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 0px;
-    width: 103.1%;
+    width: 97.6%;
   }
 
   #calendar-header-logo-container{
@@ -863,7 +869,7 @@ footer{
 
   #calendar-bottom-ul li{
     flex-basis: 33%;
-    height: 17.5vh;
+    height: 20.5vh;
     min-width: 100px;
     width: 40%;
     padding-top: 20%;
@@ -957,7 +963,7 @@ footer{
   text-align: center;
   padding: 0px;
   margin: 0px;
-  width: 100%;
+  width: 87%;
 }
 
 #join-top-nav{
@@ -984,6 +990,7 @@ footer{
 
 .join-top-h2{
   padding: 5%;
+  width: 94.6%;
 }
 
 .join-form{
@@ -999,7 +1006,7 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 51vh;
+  min-height: 37vh;
   width: 90%;
   border-radius: 100%;
   margin: 5%;
@@ -1012,6 +1019,7 @@ footer{
 .form-container{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .form-container label{
@@ -1026,6 +1034,7 @@ footer{
 .genres-container{
   margin-top: 18%;
   margin-bottom: 32%;
+  width: 82.3%;
 }
 
 #additional-input-textfield{
@@ -1038,7 +1047,7 @@ input[type="submit"]{
   background-color: #F5005B;
   color: white;
   font-size: 100%;
-  width: 30%;
+  width: 43%;
   margin: 5%;
   margin-left: 3%;
   border: 0px;
@@ -1047,7 +1056,7 @@ input[type="submit"]{
 
 .bottom-nav-and-footer{
   padding: 0px;
-  width: 115%;
+  width: 100%;
 }
 
 #join-bottom-ul{
@@ -1079,7 +1088,7 @@ input[type="submit"]{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 18vh;
-    width: 100.7%;
+    width: 87.6%;
   }
 
   #join-header-logo-container{
@@ -1170,7 +1179,7 @@ input[type="submit"]{
 
   .bottom-nav-and-footer{
     padding: 0px;
-    width: 115%;
+    width: 100%;
   }
 
   #join-bottom-ul{
@@ -1179,7 +1188,7 @@ input[type="submit"]{
     padding: 0px;
     display: flex;
     flex-direction: row;
-    height: 15vh;
+    height: 17.5vh;
   }
 
   #join-bottom-ul li{
@@ -1317,7 +1326,7 @@ input[type="submit"]{
 
   .bottom-nav-and-footer{
     padding: 0px;
-    width: 121.5%;
+    width: 122%;
   }
 
   #join-bottom-ul{
