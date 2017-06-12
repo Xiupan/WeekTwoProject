@@ -478,7 +478,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 98.9%;
+    /*width: 98.9%;*/
   }
 
   #main-page-header-logo-container{
@@ -496,7 +496,7 @@ footer{
     justify-content: flex-start;
     background-color: #7DDFE8;
     height: 15vh;
-    width: 110%;
+    /*width: 110%;*/
   }
 
   #main-page-top-ul li{
@@ -510,7 +510,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 112%;
+    /*width: 112%;*/
     padding: 3%;
   }
 
@@ -552,7 +552,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 107.8%;
+    /*width: 107.8%;*/
   }
 
   .main-page-mid-h1{
@@ -625,7 +625,7 @@ footer{
   }
 
   #home-page-bottom-nav-and-footer{
-    width: 100%;
+    width: 93%;
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -688,7 +688,7 @@ footer{
   padding: 0px;
   margin: 0px;
   min-height: 20vh;
-  width: 115%;
+  /*width: 115%;*/
 }
 
 #calendar-top-nav{
@@ -744,7 +744,7 @@ footer{
 .calendar-top-h2{
   padding: 4%;
   color: #0b1942;
-  width: 115%;
+  /*width: 115%;*/
 }
 
 .calendar-container{
@@ -753,7 +753,7 @@ footer{
   flex-wrap: wrap;
   background-color: #0b1942;
   padding-bottom: 8%;
-  width: 115%;
+  /*width: 115%;*/
 }
 
 .calendar-mid-h2{
@@ -794,7 +794,7 @@ footer{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 0px;
-    width: 97.6%;
+    /*width: 97.6%;*/
   }
 
   #calendar-header-logo-container{
@@ -963,7 +963,7 @@ footer{
   text-align: center;
   padding: 0px;
   margin: 0px;
-  width: 87%;
+  /*width: 87%;*/
 }
 
 #join-top-nav{
@@ -974,7 +974,7 @@ footer{
 #join-top-ul{
   list-style: none;
   padding: 0px;
-  width: 121.5%;
+  /*width: 121.5%;*/
 }
 
 #join-top-ul li{
@@ -990,7 +990,7 @@ footer{
 
 .join-top-h2{
   padding: 5%;
-  width: 94.6%;
+  /*width: 94.6%;*/
 }
 
 .join-form{
@@ -998,7 +998,7 @@ footer{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  width: 115%;
+  /*width: 115%;*/
 }
 
 .profile-picture-img-container{
@@ -1088,7 +1088,7 @@ input[type="submit"]{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 18vh;
-    width: 87.6%;
+    /*width: 87.6%;*/
   }
 
   #join-header-logo-container{
@@ -1216,7 +1216,7 @@ input[type="submit"]{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 15vh;
-    width: 107.3%;
+    /*width: 107.3%;*/
   }
 
   #join-header-logo-container{
@@ -1326,7 +1326,7 @@ input[type="submit"]{
 
   .bottom-nav-and-footer{
     padding: 0px;
-    width: 122%;
+    /*width: 122%;*/
   }
 
   #join-bottom-ul{
